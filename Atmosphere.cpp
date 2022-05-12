@@ -35,7 +35,7 @@ bool Atmosphere::createLayer(const Layer input, const unsigned int index)
             #ifdef DEBUGE_MODE
             std::cout << "UP: " << input.toString() << " - " << index-1 << std::endl;
             #endif
-            createLayer(input, index - 1);
+            return createLayer(input, index - 1);
         }
     }
     else
