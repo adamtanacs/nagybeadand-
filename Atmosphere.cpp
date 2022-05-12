@@ -24,20 +24,28 @@ bool Atmosphere::createLayer(const Layer input, const unsigned int index)
         }
         else if (layers[index - 1].getName() == input.getName())
         {
+            #ifdef DEBUGE_MODE
+            std::cout << layers[index - 1].toString() << " == " << input.toString() << std::endl;
+            #endif
             layers[index - 1].setSize(layers[index - 1].getSize() + input.getSize());
             return false;
         }
         else
         {
+            #ifdef DEBUGE_MODE
+            std::cout << "UP: " << input.toString() << " - " << index-1 << std::endl;
+            #endif
             createLayer(input, index - 1);
         }
     }
     else
     {
+        #ifdef DEBUGE_MODE
+        std::cout << "CREATED: " << input.toString() << std::endl;
+        #endif
         layers.insert(layers.begin(), input);
         return true;
     }
-    return false;
 }
 
 void Atmosphere::upLayer(const Layer input, const unsigned int index)
@@ -106,7 +114,7 @@ void Atmosphere::simulate()
                     Layer newLayer('z', tmp);
                     bool created = createLayer(newLayer, i);
                     #ifdef DEBUGE_MODE
-                    if (created) {std::cout << "TRUE";} else {std::cout << "FALSE";}
+                    if (created) {std::cout << "TRUE" << std::endl;} else {std::cout << "FALSE" << std::endl;}
                     #endif
                     if (created)
                         i+= 2;
@@ -133,7 +141,7 @@ void Atmosphere::simulate()
                     Layer newLayer('z', tmp);
                     bool created = createLayer(newLayer, i);
                     #ifdef DEBUGE_MODE
-                    if (created) {std::cout << "TRUE";} else {std::cout << "FALSE";}
+                    if (created) {std::cout << "TRUE" << std::endl;} else {std::cout << "FALSE" << std::endl;}
                     #endif
                     if (created)
                         i += 2;
@@ -147,7 +155,7 @@ void Atmosphere::simulate()
                     Layer newLayer('x', tmp);
                     bool created = createLayer(newLayer, i);
                     #ifdef DEBUGE_MODE
-                    if (created) {std::cout << "TRUE";} else {std::cout << "FALSE";}
+                    if (created) {std::cout << "TRUE" << std::endl;} else {std::cout << "FALSE" << std::endl;}
                     #endif
                     if (created)
                         i += 2;
@@ -174,7 +182,7 @@ void Atmosphere::simulate()
                     Layer newLayer('x', tmp);
                     bool created = createLayer(newLayer, i);
                     #ifdef DEBUGE_MODE
-                    if (created) {std::cout << "TRUE";} else {std::cout << "FALSE";}
+                    if (created) {std::cout << "TRUE - OZON" << std::endl;} else {std::cout << "FALSE - OZON" << std::endl;}
                     #endif
                     if (created)
                         i += 2;
@@ -186,9 +194,10 @@ void Atmosphere::simulate()
                                 << " >> " << tmp << " carbondioxid" << std::endl;
                     layers[i].setSize(layers[i].getSize() - tmp);
                     Layer newLayer('s', tmp);
-                    bool created = createLayer(newLayer, i);
+                    bool created = false;
+                    created = createLayer(newLayer, i);
                     #ifdef DEBUGE_MODE
-                    if (created) {std::cout << "TRUE" << std::endl;} else {std::cout << "FALSE" << std::endl;}
+                    if (created) {std::cout << "TRUE - OXIGEN" << std::endl;} else {std::cout << "FALSE - OXIGEN" << std::endl;}
                     #endif
                     if (created)
                         i += 2;
