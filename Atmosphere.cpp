@@ -1,6 +1,6 @@
 #include "Atmosphere.hpp"
 
-#define DEBUGE_MODE
+// #define DEBUGE_MODE
 
 void Atmosphere::clearThins()
 {
