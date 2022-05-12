@@ -142,7 +142,7 @@ int main()
     assertm(round(Atm8.getLayer(0).getSize()*EPSILON)/EPSILON == 9.006 && 
             Atm8.getLayer(0).getName() == dioxid, "TEST 08A");
     assertm(round(Atm8.getLayer(1).getSize()*EPSILON)/EPSILON == 5 &&
-             Atm8.getLayer(1).getName() == dioxid, "TEST 08B");
+            Atm8.getLayer(1).getName() == dioxid, "TEST 08B");
     assertm(iter == 15, "TEST 08 ITERATIONS");
     std::cout << std::endl << "TEST 08 COMPLETED" << std::endl << std::endl;
 }
