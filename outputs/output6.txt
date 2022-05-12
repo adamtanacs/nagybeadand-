@@ -6,7 +6,8 @@ carbondioxid 5.0000
 ------MAS------
 0
 - 0.5 oxigen >> 0.5 carbondioxid
-TRUE
+CREATED: carbondioxid 0.5000
+TRUE - OXIGEN
 2
 3
 3
@@ -27,11 +28,14 @@ carbondioxid 5.0000
 0
 1
 - 0.45 oxigen >> 0.45 carbondioxid
-FALSE
+carbondioxid 0.5000 == carbondioxid 0.4500
+FALSE - OXIGEN
 1
 2
 - 0.25 ozon >> 0.25 oxigen
-FALSE2
+oxigen 4.0500 == oxigen 0.2500
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -51,11 +55,14 @@ carbondioxid 5.0000
 0
 1
 - 0.43 oxigen >> 0.43 carbondioxid
-FALSE
+carbondioxid 0.9500 == carbondioxid 0.4300
+FALSE - OXIGEN
 1
 2
 - 0.2375 ozon >> 0.2375 oxigen
-FALSE2
+oxigen 3.8700 == oxigen 0.2375
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -75,11 +82,14 @@ carbondioxid 5.0000
 0
 1
 - 0.41075 oxigen >> 0.41075 carbondioxid
-FALSE
+carbondioxid 1.3800 == carbondioxid 0.4107
+FALSE - OXIGEN
 1
 2
 - 0.225625 ozon >> 0.225625 oxigen
-FALSE2
+oxigen 3.6967 == oxigen 0.2256
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -99,11 +109,14 @@ carbondioxid 5.0000
 0
 1
 - 0.392238 oxigen >> 0.392238 carbondioxid
-FALSE
+carbondioxid 1.7907 == carbondioxid 0.3922
+FALSE - OXIGEN
 1
 2
 - 0.214344 ozon >> 0.214344 oxigen
-FALSE2
+oxigen 3.5301 == oxigen 0.2143
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -123,11 +136,14 @@ carbondioxid 5.0000
 0
 1
 - 0.374448 oxigen >> 0.374448 carbondioxid
-FALSE
+carbondioxid 2.1829 == carbondioxid 0.3744
+FALSE - OXIGEN
 1
 2
 - 0.203627 ozon >> 0.203627 oxigen
-FALSE2
+oxigen 3.3700 == oxigen 0.2036
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -147,11 +163,14 @@ carbondioxid 5.0000
 0
 1
 - 0.357366 oxigen >> 0.357366 carbondioxid
-FALSE
+carbondioxid 2.5574 == carbondioxid 0.3573
+FALSE - OXIGEN
 1
 2
 - 0.193445 ozon >> 0.193445 oxigen
-FALSE2
+oxigen 3.2162 == oxigen 0.1934
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -171,11 +190,14 @@ carbondioxid 5.0000
 0
 1
 - 0.340974 oxigen >> 0.340974 carbondioxid
-FALSE
+carbondioxid 2.9148 == carbondioxid 0.3409
+FALSE - OXIGEN
 1
 2
 - 0.183773 ozon >> 0.183773 oxigen
-FALSE2
+oxigen 3.0687 == oxigen 0.1837
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -195,11 +217,14 @@ carbondioxid 5.0000
 0
 1
 - 0.325254 oxigen >> 0.325254 carbondioxid
-FALSE
+carbondioxid 3.2557 == carbondioxid 0.3252
+FALSE - OXIGEN
 1
 2
 - 0.174584 ozon >> 0.174584 oxigen
-FALSE2
+oxigen 2.9272 == oxigen 0.1745
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -219,11 +244,14 @@ carbondioxid 5.0000
 0
 1
 - 0.310187 oxigen >> 0.310187 carbondioxid
-FALSE
+carbondioxid 3.5810 == carbondioxid 0.3101
+FALSE - OXIGEN
 1
 2
 - 0.165855 ozon >> 0.165855 oxigen
-FALSE2
+oxigen 2.7916 == oxigen 0.1658
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -243,11 +271,14 @@ carbondioxid 5.0000
 0
 1
 - 0.295754 oxigen >> 0.295754 carbondioxid
-FALSE
+carbondioxid 3.8912 == carbondioxid 0.2957
+FALSE - OXIGEN
 1
 2
 - 0.157562 ozon >> 0.157562 oxigen
-FALSE2
+oxigen 2.6617 == oxigen 0.1575
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -267,11 +298,14 @@ carbondioxid 5.0000
 0
 1
 - 0.281935 oxigen >> 0.281935 carbondioxid
-FALSE
+carbondioxid 4.1869 == carbondioxid 0.2819
+FALSE - OXIGEN
 1
 2
 - 0.149684 ozon >> 0.149684 oxigen
-FALSE2
+oxigen 2.5374 == oxigen 0.1496
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -291,11 +325,14 @@ carbondioxid 5.0000
 0
 1
 - 0.26871 oxigen >> 0.26871 carbondioxid
-FALSE
+carbondioxid 4.4689 == carbondioxid 0.2687
+FALSE - OXIGEN
 1
 2
 - 0.1422 ozon >> 0.1422 oxigen
-FALSE2
+oxigen 2.4183 == oxigen 0.1422
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -315,11 +352,14 @@ carbondioxid 5.0000
 0
 1
 - 0.256059 oxigen >> 0.256059 carbondioxid
-FALSE
+carbondioxid 4.7376 == carbondioxid 0.2560
+FALSE - OXIGEN
 1
 2
 - 0.13509 ozon >> 0.13509 oxigen
-FALSE2
+oxigen 2.3045 == oxigen 0.1350
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -339,11 +379,14 @@ carbondioxid 5.0000
 0
 1
 - 0.243962 oxigen >> 0.243962 carbondioxid
-FALSE
+carbondioxid 4.9936 == carbondioxid 0.2439
+FALSE - OXIGEN
 1
 2
 - 0.128336 ozon >> 0.128336 oxigen
-FALSE2
+oxigen 2.1956 == oxigen 0.1283
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -363,11 +406,14 @@ carbondioxid 5.0000
 0
 1
 - 0.232399 oxigen >> 0.232399 carbondioxid
-FALSE
+carbondioxid 5.2376 == carbondioxid 0.2323
+FALSE - OXIGEN
 1
 2
 - 0.121919 ozon >> 0.121919 oxigen
-FALSE2
+oxigen 2.0915 == oxigen 0.1219
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -387,11 +433,14 @@ carbondioxid 5.0000
 0
 1
 - 0.221351 oxigen >> 0.221351 carbondioxid
-FALSE
+carbondioxid 5.4700 == carbondioxid 0.2213
+FALSE - OXIGEN
 1
 2
 - 0.115823 ozon >> 0.115823 oxigen
-FALSE2
+oxigen 1.9921 == oxigen 0.1158
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -411,11 +460,14 @@ carbondioxid 5.0000
 0
 1
 - 0.210798 oxigen >> 0.210798 carbondioxid
-FALSE
+carbondioxid 5.6913 == carbondioxid 0.2107
+FALSE - OXIGEN
 1
 2
 - 0.110032 ozon >> 0.110032 oxigen
-FALSE2
+oxigen 1.8971 == oxigen 0.1100
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -435,11 +487,14 @@ carbondioxid 5.0000
 0
 1
 - 0.200722 oxigen >> 0.200722 carbondioxid
-FALSE
+carbondioxid 5.9021 == carbondioxid 0.2007
+FALSE - OXIGEN
 1
 2
 - 0.10453 ozon >> 0.10453 oxigen
-FALSE2
+oxigen 1.8064 == oxigen 0.1045
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -459,11 +514,14 @@ carbondioxid 5.0000
 0
 1
 - 0.191102 oxigen >> 0.191102 carbondioxid
-FALSE
+carbondioxid 6.1029 == carbondioxid 0.1911
+FALSE - OXIGEN
 1
 2
 - 0.0993036 ozon >> 0.0993036 oxigen
-FALSE2
+oxigen 1.7199 == oxigen 0.0993
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -483,11 +541,14 @@ carbondioxid 5.0000
 0
 1
 - 0.181923 oxigen >> 0.181923 carbondioxid
-FALSE
+carbondioxid 6.2940 == carbondioxid 0.1819
+FALSE - OXIGEN
 1
 2
 - 0.0943384 ozon >> 0.0943384 oxigen
-FALSE2
+oxigen 1.6373 == oxigen 0.0943
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -507,11 +568,14 @@ carbondioxid 5.0000
 0
 1
 - 0.173164 oxigen >> 0.173164 carbondioxid
-FALSE
+carbondioxid 6.4759 == carbondioxid 0.1731
+FALSE - OXIGEN
 1
 2
 - 0.0896215 ozon >> 0.0896215 oxigen
-FALSE2
+oxigen 1.5584 == oxigen 0.0896
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -531,11 +595,14 @@ carbondioxid 5.0000
 0
 1
 - 0.16481 oxigen >> 0.16481 carbondioxid
-FALSE
+carbondioxid 6.6490 == carbondioxid 0.1648
+FALSE - OXIGEN
 1
 2
 - 0.0851404 ozon >> 0.0851404 oxigen
-FALSE2
+oxigen 1.4832 == oxigen 0.0851
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -555,11 +622,14 @@ carbondioxid 5.0000
 0
 1
 - 0.156843 oxigen >> 0.156843 carbondioxid
-FALSE
+carbondioxid 6.8139 == carbondioxid 0.1568
+FALSE - OXIGEN
 1
 2
 - 0.0808834 ozon >> 0.0808834 oxigen
-FALSE2
+oxigen 1.4115 == oxigen 0.0808
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -579,11 +649,14 @@ carbondioxid 5.0000
 0
 1
 - 0.149247 oxigen >> 0.149247 carbondioxid
-FALSE
+carbondioxid 6.9707 == carbondioxid 0.1492
+FALSE - OXIGEN
 1
 2
 - 0.0768392 ozon >> 0.0768392 oxigen
-FALSE2
+oxigen 1.3432 == oxigen 0.0768
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -603,11 +676,14 @@ carbondioxid 5.0000
 0
 1
 - 0.142006 oxigen >> 0.142006 carbondioxid
-FALSE
+carbondioxid 7.1199 == carbondioxid 0.1420
+FALSE - OXIGEN
 1
 2
 - 0.0729973 ozon >> 0.0729973 oxigen
-FALSE2
+oxigen 1.2780 == oxigen 0.0729
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -627,11 +703,14 @@ carbondioxid 5.0000
 0
 1
 - 0.135105 oxigen >> 0.135105 carbondioxid
-FALSE
+carbondioxid 7.2619 == carbondioxid 0.1351
+FALSE - OXIGEN
 1
 2
 - 0.0693474 ozon >> 0.0693474 oxigen
-FALSE2
+oxigen 1.2159 == oxigen 0.0693
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -651,11 +730,14 @@ carbondioxid 5.0000
 0
 1
 - 0.12853 oxigen >> 0.12853 carbondioxid
-FALSE
+carbondioxid 7.3971 == carbondioxid 0.1285
+FALSE - OXIGEN
 1
 2
 - 0.06588 ozon >> 0.06588 oxigen
-FALSE2
+oxigen 1.1567 == oxigen 0.0658
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -675,11 +757,14 @@ carbondioxid 5.0000
 0
 1
 - 0.122265 oxigen >> 0.122265 carbondioxid
-FALSE
+carbondioxid 7.5256 == carbondioxid 0.1222
+FALSE - OXIGEN
 1
 2
 - 0.062586 ozon >> 0.062586 oxigen
-FALSE2
+oxigen 1.1003 == oxigen 0.0625
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -699,11 +784,14 @@ carbondioxid 5.0000
 0
 1
 - 0.116297 oxigen >> 0.116297 carbondioxid
-FALSE
+carbondioxid 7.6478 == carbondioxid 0.1162
+FALSE - OXIGEN
 1
 2
 - 0.0594567 ozon >> 0.0594567 oxigen
-FALSE2
+oxigen 1.0466 == oxigen 0.0594
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -723,11 +811,14 @@ carbondioxid 5.0000
 0
 1
 - 0.110613 oxigen >> 0.110613 carbondioxid
-FALSE
+carbondioxid 7.7641 == carbondioxid 0.1106
+FALSE - OXIGEN
 1
 2
 - 0.0564839 ozon >> 0.0564839 oxigen
-FALSE2
+oxigen 0.9955 == oxigen 0.0564
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -747,11 +838,14 @@ carbondioxid 5.0000
 0
 1
 - 0.1052 oxigen >> 0.1052 carbondioxid
-FALSE
+carbondioxid 7.8748 == carbondioxid 0.1052
+FALSE - OXIGEN
 1
 2
 - 0.0536597 ozon >> 0.0536597 oxigen
-FALSE2
+oxigen 0.9467 == oxigen 0.0536
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -771,11 +865,14 @@ carbondioxid 5.0000
 0
 1
 - 0.100046 oxigen >> 0.100046 carbondioxid
-FALSE
+carbondioxid 7.9800 == carbondioxid 0.1000
+FALSE - OXIGEN
 1
 2
 - 0.0509767 ozon >> 0.0509767 oxigen
-FALSE2
+oxigen 0.9004 == oxigen 0.0509
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -795,11 +892,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0951389 oxigen >> 0.0951389 carbondioxid
-FALSE
+carbondioxid 8.0800 == carbondioxid 0.0951
+FALSE - OXIGEN
 1
 2
 - 0.0484279 ozon >> 0.0484279 oxigen
-FALSE2
+oxigen 0.8562 == oxigen 0.0484
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -819,11 +919,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0904678 oxigen >> 0.0904678 carbondioxid
-FALSE
+carbondioxid 8.1751 == carbondioxid 0.0904
+FALSE - OXIGEN
 1
 2
 - 0.0460065 ozon >> 0.0460065 oxigen
-FALSE2
+oxigen 0.8142 == oxigen 0.0460
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -843,11 +946,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0860217 oxigen >> 0.0860217 carbondioxid
-FALSE
+carbondioxid 8.2656 == carbondioxid 0.0860
+FALSE - OXIGEN
 1
 2
 - 0.0437062 ozon >> 0.0437062 oxigen
-FALSE2
+oxigen 0.7741 == oxigen 0.0437
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -867,11 +973,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0817901 oxigen >> 0.0817901 carbondioxid
-FALSE
+carbondioxid 8.3516 == carbondioxid 0.0817
+FALSE - OXIGEN
 1
 2
 - 0.0415208 ozon >> 0.0415208 oxigen
-FALSE2
+oxigen 0.7361 == oxigen 0.0415
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -891,11 +1000,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0777632 oxigen >> 0.0777632 carbondioxid
-FALSE
+carbondioxid 8.4334 == carbondioxid 0.0777
+FALSE - OXIGEN
 1
 2
 - 0.0394448 ozon >> 0.0394448 oxigen
-FALSE2
+oxigen 0.6998 == oxigen 0.0394
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -915,11 +1027,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0739313 oxigen >> 0.0739313 carbondioxid
-FALSE
+carbondioxid 8.5112 == carbondioxid 0.0739
+FALSE - OXIGEN
 1
 2
 - 0.0374726 ozon >> 0.0374726 oxigen
-FALSE2
+oxigen 0.6653 == oxigen 0.0374
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -939,11 +1054,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0702855 oxigen >> 0.0702855 carbondioxid
-FALSE
+carbondioxid 8.5851 == carbondioxid 0.0702
+FALSE - OXIGEN
 1
 2
 - 0.0355989 ozon >> 0.0355989 oxigen
-FALSE2
+oxigen 0.6325 == oxigen 0.0355
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -963,11 +1081,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0668168 oxigen >> 0.0668168 carbondioxid
-FALSE
+carbondioxid 8.6554 == carbondioxid 0.0668
+FALSE - OXIGEN
 1
 2
 - 0.033819 ozon >> 0.033819 oxigen
-FALSE2
+oxigen 0.6013 == oxigen 0.0338
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -987,11 +1108,14 @@ carbondioxid 5.0000
 0
 1
 - 0.063517 oxigen >> 0.063517 carbondioxid
-FALSE
+carbondioxid 8.7222 == carbondioxid 0.0635
+FALSE - OXIGEN
 1
 2
 - 0.032128 ozon >> 0.032128 oxigen
-FALSE2
+oxigen 0.5716 == oxigen 0.0321
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -1011,11 +1135,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0603781 oxigen >> 0.0603781 carbondioxid
-FALSE
+carbondioxid 8.7857 == carbondioxid 0.0603
+FALSE - OXIGEN
 1
 2
 - 0.0305216 ozon >> 0.0305216 oxigen
-FALSE2
+oxigen 0.5434 == oxigen 0.0305
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -1035,11 +1162,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0573925 oxigen >> 0.0573925 carbondioxid
-FALSE
+carbondioxid 8.8461 == carbondioxid 0.0573
+FALSE - OXIGEN
 1
 2
 - 0.0289956 ozon >> 0.0289956 oxigen
-FALSE2
+oxigen 0.5165 == oxigen 0.0289
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -1059,11 +1189,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0545528 oxigen >> 0.0545528 carbondioxid
-FALSE
+carbondioxid 8.9035 == carbondioxid 0.0545
+FALSE - OXIGEN
 1
 2
 - 0.0275458 ozon >> 0.0275458 oxigen
-FALSE2
+oxigen 0.4909 == oxigen 0.0275
+FALSE - OZON
+2
 3
 3
 ---------------
@@ -1083,11 +1216,14 @@ carbondioxid 5.0000
 0
 1
 - 0.0518521 oxigen >> 0.0518521 carbondioxid
-FALSE
+carbondioxid 8.9581 == carbondioxid 0.0518
+FALSE - OXIGEN
 1
 2
 - 0.0261685 ozon >> 0.0261685 oxigen
-FALSE2
+oxigen 0.4666 == oxigen 0.0261
+FALSE - OZON
+2
 3
 3
 ---------------

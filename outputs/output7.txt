@@ -6,7 +6,9 @@ carbondioxid 5.0000
 ------ZIVATAR------
 0
 - 2.5 oxigen >> 2.5 ozon
-TRUE2
+CREATED: ozon 2.5000
+TRUE
+2
 3
 3
 -------------------
@@ -26,7 +28,9 @@ carbondioxid 5.0000
 0
 1
 - 1.25 oxigen >> 1.25 ozon
-FALSE1
+ozon 2.5000 == ozon 1.2500
+FALSE
+1
 2
 2
 3
@@ -48,7 +52,9 @@ carbondioxid 5.0000
 0
 1
 - 0.625 oxigen >> 0.625 ozon
-FALSE1
+ozon 3.7500 == ozon 0.6250
+FALSE
+1
 2
 2
 3
@@ -70,7 +76,9 @@ carbondioxid 5.0000
 0
 1
 - 0.3125 oxigen >> 0.3125 ozon
-FALSE1
+ozon 4.3750 == ozon 0.3125
+FALSE
+1
 2
 2
 3
