@@ -51,6 +51,14 @@ public:
     void print(const unsigned int it); //
 
     int getSize() { return layers.size(); } //
+
+    Layer getLayer(int index) 
+    {
+        if (index < getSize())
+            return layers[index];
+        else
+            throw std::invalid_argument("Index out of bounds");
+    }
 };
 
 #endif
