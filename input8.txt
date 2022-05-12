@@ -1,6 +1,5 @@
-4
+3
+x 5
 z 5
-x 0.8
-s 3
-x 4
-mmmmnnznnmm
+s 5
+mmm

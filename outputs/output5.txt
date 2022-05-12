@@ -3,1078 +3,676 @@ oxigen 5.0000
 ozon 5.0000
 carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-- 0.25 oxigen >> 0.25 ozon
-CREATED: ozon 0.2500
-TRUE
-2
-3
-- 0.25 carbondioxid >> 0.25 oxigen
-UP: oxigen 0.2500 - 2
-oxigen 4.7500 == oxigen 0.2500
-FALSE
-3
------------------
-- ozon 0.2500
-- oxigen 5.0000
-- ozon 5.0000
-- carbondioxid 4.7500
+------MAS------
+- 0.5 oxigen >> 0.5 carbondioxid
+- 0.25 ozon >> 0.25 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.25 oxigen >> 0.25 ozon
-ozon 0.2500 == ozon 0.2500
-FALSE
-1
-2
-2
-3
-- 0.2375 carbondioxid >> 0.2375 oxigen
-UP: oxigen 0.2375 - 2
-oxigen 4.7500 == oxigen 0.2375
-FALSE
-3
------------------
-- ozon 0.5000
-- oxigen 4.9875
-- ozon 5.0000
-- carbondioxid 4.5125
----------------
-------NAPOS------
-0
-0
-1
-- 0.249375 oxigen >> 0.249375 ozon
-ozon 0.5000 == ozon 0.2493
-FALSE
-1
-2
-2
-3
-- 0.225625 carbondioxid >> 0.225625 oxigen
-UP: oxigen 0.2256 - 2
-oxigen 4.7381 == oxigen 0.2256
-FALSE
-3
------------------
-- ozon 0.7493
-- oxigen 4.9637
-- ozon 5.0000
-- carbondioxid 4.2868
+- carbondioxid 0.5000
+- oxigen 4.7500
+- ozon 4.7500
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT1------------
-ozon 0.7493
-oxigen 4.9637
-ozon 5.0000
-carbondioxid 4.2868
+carbondioxid 0.5000
+oxigen 4.7500
+ozon 4.7500
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.248188 oxigen >> 0.248188 ozon
-ozon 0.7493 == ozon 0.2481
-FALSE
-1
-2
-2
-3
-- 0.214344 carbondioxid >> 0.214344 oxigen
-UP: oxigen 0.2143 - 2
-oxigen 4.7155 == oxigen 0.2143
-FALSE
-3
------------------
-- ozon 0.9975
-- oxigen 4.9299
-- ozon 5.0000
-- carbondioxid 4.0725
+------MAS------
+- 0.475 oxigen >> 0.475 carbondioxid
+- 0.2375 ozon >> 0.2375 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.246495 oxigen >> 0.246495 ozon
-ozon 0.9975 == ozon 0.2464
-FALSE
-1
-2
-2
-3
-- 0.203627 carbondioxid >> 0.203627 oxigen
-UP: oxigen 0.2036 - 2
-oxigen 4.6834 == oxigen 0.2036
-FALSE
-3
------------------
-- ozon 1.2440
-- oxigen 4.8870
-- ozon 5.0000
-- carbondioxid 3.8689
----------------
-------NAPOS------
-0
-0
-1
-- 0.244352 oxigen >> 0.244352 ozon
-ozon 1.2440 == ozon 0.2443
-FALSE
-1
-2
-2
-3
-- 0.193445 carbondioxid >> 0.193445 oxigen
-UP: oxigen 0.1934 - 2
-oxigen 4.6426 == oxigen 0.1934
-FALSE
-3
------------------
-- ozon 1.4884
-- oxigen 4.8361
-- ozon 5.0000
-- carbondioxid 3.6754
+- carbondioxid 0.9750
+- oxigen 4.5125
+- ozon 4.5125
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT2------------
-ozon 1.4884
-oxigen 4.8361
-ozon 5.0000
-carbondioxid 3.6754
+carbondioxid 0.9750
+oxigen 4.5125
+ozon 4.5125
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.241807 oxigen >> 0.241807 ozon
-ozon 1.4884 == ozon 0.2418
-FALSE
-1
-2
-2
-3
-- 0.183773 carbondioxid >> 0.183773 oxigen
-UP: oxigen 0.1837 - 2
-oxigen 4.5943 == oxigen 0.1837
-FALSE
-3
------------------
-- ozon 1.7302
-- oxigen 4.7780
-- ozon 5.0000
-- carbondioxid 3.4916
+------MAS------
+- 0.45125 oxigen >> 0.45125 carbondioxid
+- 0.225625 ozon >> 0.225625 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.238905 oxigen >> 0.238905 ozon
-ozon 1.7302 == ozon 0.2389
-FALSE
-1
-2
-2
-3
-- 0.174584 carbondioxid >> 0.174584 oxigen
-UP: oxigen 0.1745 - 2
-oxigen 4.5391 == oxigen 0.1745
-FALSE
-3
------------------
-- ozon 1.9691
-- oxigen 4.7137
-- ozon 5.0000
-- carbondioxid 3.3171
----------------
-------NAPOS------
-0
-0
-1
-- 0.235689 oxigen >> 0.235689 ozon
-ozon 1.9691 == ozon 0.2356
-FALSE
-1
-2
-2
-3
-- 0.165855 carbondioxid >> 0.165855 oxigen
-UP: oxigen 0.1658 - 2
-oxigen 4.4780 == oxigen 0.1658
-FALSE
-3
------------------
-- ozon 2.2048
-- oxigen 4.6439
-- ozon 5.0000
-- carbondioxid 3.1512
+- carbondioxid 1.4262
+- oxigen 4.2868
+- ozon 4.2868
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT3------------
-ozon 2.2048
-oxigen 4.6439
-ozon 5.0000
-carbondioxid 3.1512
+carbondioxid 1.4262
+oxigen 4.2868
+ozon 4.2868
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.232197 oxigen >> 0.232197 ozon
-ozon 2.2048 == ozon 0.2321
-FALSE
-1
-2
-2
-3
-- 0.157562 carbondioxid >> 0.157562 oxigen
-UP: oxigen 0.1575 - 2
-oxigen 4.4117 == oxigen 0.1575
-FALSE
-3
------------------
-- ozon 2.4370
-- oxigen 4.5693
-- ozon 5.0000
-- carbondioxid 2.9936
+------MAS------
+- 0.428688 oxigen >> 0.428688 carbondioxid
+- 0.214344 ozon >> 0.214344 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.228465 oxigen >> 0.228465 ozon
-ozon 2.4370 == ozon 0.2284
-FALSE
-1
-2
-2
-3
-- 0.149684 carbondioxid >> 0.149684 oxigen
-UP: oxigen 0.1496 - 2
-oxigen 4.3408 == oxigen 0.1496
-FALSE
-3
------------------
-- ozon 2.6654
-- oxigen 4.4905
-- ozon 5.0000
-- carbondioxid 2.8440
----------------
-------NAPOS------
-0
-0
-1
-- 0.224526 oxigen >> 0.224526 ozon
-ozon 2.6654 == ozon 0.2245
-FALSE
-1
-2
-2
-3
-- 0.1422 carbondioxid >> 0.1422 oxigen
-UP: oxigen 0.1422 - 2
-oxigen 4.2660 == oxigen 0.1422
-FALSE
-3
------------------
-- ozon 2.8899
-- oxigen 4.4082
-- ozon 5.0000
-- carbondioxid 2.7018
+- carbondioxid 1.8549
+- oxigen 4.0725
+- ozon 4.0725
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT4------------
-ozon 2.8899
-oxigen 4.4082
-ozon 5.0000
-carbondioxid 2.7018
+carbondioxid 1.8549
+oxigen 4.0725
+ozon 4.0725
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.22041 oxigen >> 0.22041 ozon
-ozon 2.8899 == ozon 0.2204
-FALSE
-1
-2
-2
-3
-- 0.13509 carbondioxid >> 0.13509 oxigen
-UP: oxigen 0.1350 - 2
-oxigen 4.1877 == oxigen 0.1350
-FALSE
-3
------------------
-- ozon 3.1104
-- oxigen 4.3228
-- ozon 5.0000
-- carbondioxid 2.5667
+------MAS------
+- 0.407253 oxigen >> 0.407253 carbondioxid
+- 0.203627 ozon >> 0.203627 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.216144 oxigen >> 0.216144 ozon
-ozon 3.1104 == ozon 0.2161
-FALSE
-1
-2
-2
-3
-- 0.128336 carbondioxid >> 0.128336 oxigen
-UP: oxigen 0.1283 - 2
-oxigen 4.1067 == oxigen 0.1283
-FALSE
-3
------------------
-- ozon 3.3265
-- oxigen 4.2350
-- ozon 5.0000
-- carbondioxid 2.4383
----------------
-------NAPOS------
-0
-0
-1
-- 0.211754 oxigen >> 0.211754 ozon
-ozon 3.3265 == ozon 0.2117
-FALSE
-1
-2
-2
-3
-- 0.121919 carbondioxid >> 0.121919 oxigen
-UP: oxigen 0.1219 - 2
-oxigen 4.0233 == oxigen 0.1219
-FALSE
-3
------------------
-- ozon 3.5383
-- oxigen 4.1452
-- ozon 5.0000
-- carbondioxid 2.3164
+- carbondioxid 2.2621
+- oxigen 3.8689
+- ozon 3.8689
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT5------------
-ozon 3.5383
-oxigen 4.1452
-ozon 5.0000
-carbondioxid 2.3164
+carbondioxid 2.2621
+oxigen 3.8689
+ozon 3.8689
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.207262 oxigen >> 0.207262 ozon
-ozon 3.5383 == ozon 0.2072
-FALSE
-1
-2
-2
-3
-- 0.115823 carbondioxid >> 0.115823 oxigen
-UP: oxigen 0.1158 - 2
-oxigen 3.9379 == oxigen 0.1158
-FALSE
-3
------------------
-- ozon 3.7455
-- oxigen 4.0537
-- ozon 5.0000
-- carbondioxid 2.2006
+------MAS------
+- 0.38689 oxigen >> 0.38689 carbondioxid
+- 0.193445 ozon >> 0.193445 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.20269 oxigen >> 0.20269 ozon
-ozon 3.7455 == ozon 0.2026
-FALSE
-1
-2
-2
-3
-- 0.110032 carbondioxid >> 0.110032 oxigen
-UP: oxigen 0.1100 - 2
-oxigen 3.8511 == oxigen 0.1100
-FALSE
-3
------------------
-- ozon 3.9482
-- oxigen 3.9611
-- ozon 5.0000
-- carbondioxid 2.0906
----------------
-------NAPOS------
-0
-0
-1
-- 0.198057 oxigen >> 0.198057 ozon
-ozon 3.9482 == ozon 0.1980
-FALSE
-1
-2
-2
-3
-- 0.10453 carbondioxid >> 0.10453 oxigen
-UP: oxigen 0.1045 - 2
-oxigen 3.7630 == oxigen 0.1045
-FALSE
-3
------------------
-- ozon 4.1463
-- oxigen 3.8676
-- ozon 5.0000
-- carbondioxid 1.9860
+- carbondioxid 2.6490
+- oxigen 3.6754
+- ozon 3.6754
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT6------------
-ozon 4.1463
-oxigen 3.8676
-ozon 5.0000
-carbondioxid 1.9860
+carbondioxid 2.6490
+oxigen 3.6754
+ozon 3.6754
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.193381 oxigen >> 0.193381 ozon
-ozon 4.1463 == ozon 0.1933
-FALSE
-1
-2
-2
-3
-- 0.0993036 carbondioxid >> 0.0993036 oxigen
-UP: oxigen 0.0993 - 2
-oxigen 3.6742 == oxigen 0.0993
-FALSE
-3
------------------
-- ozon 4.3396
-- oxigen 3.7735
-- ozon 5.0000
-- carbondioxid 1.8867
+------MAS------
+- 0.367546 oxigen >> 0.367546 carbondioxid
+- 0.183773 ozon >> 0.183773 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.188677 oxigen >> 0.188677 ozon
-ozon 4.3396 == ozon 0.1886
-FALSE
-1
-2
-2
-3
-- 0.0943384 carbondioxid >> 0.0943384 oxigen
-UP: oxigen 0.0943 - 2
-oxigen 3.5848 == oxigen 0.0943
-FALSE
-3
------------------
-- ozon 4.5283
-- oxigen 3.6791
-- ozon 5.0000
-- carbondioxid 1.7924
----------------
-------NAPOS------
-0
-0
-1
-- 0.18396 oxigen >> 0.18396 ozon
-ozon 4.5283 == ozon 0.1839
-FALSE
-1
-2
-2
-3
-- 0.0896215 carbondioxid >> 0.0896215 oxigen
-UP: oxigen 0.0896 - 2
-oxigen 3.4952 == oxigen 0.0896
-FALSE
-3
------------------
-- ozon 4.7123
-- oxigen 3.5848
-- ozon 5.0000
-- carbondioxid 1.7028
+- carbondioxid 3.0166
+- oxigen 3.4916
+- ozon 3.4916
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT7------------
-ozon 4.7123
-oxigen 3.5848
-ozon 5.0000
-carbondioxid 1.7028
+carbondioxid 3.0166
+oxigen 3.4916
+ozon 3.4916
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.179243 oxigen >> 0.179243 ozon
-ozon 4.7123 == ozon 0.1792
-FALSE
-1
-2
-2
-3
-- 0.0851404 carbondioxid >> 0.0851404 oxigen
-UP: oxigen 0.0851 - 2
-oxigen 3.4056 == oxigen 0.0851
-FALSE
-3
------------------
-- ozon 4.8915
-- oxigen 3.4907
-- ozon 5.0000
-- carbondioxid 1.6176
+------MAS------
+- 0.349169 oxigen >> 0.349169 carbondioxid
+- 0.174584 ozon >> 0.174584 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.174538 oxigen >> 0.174538 ozon
-ozon 4.8915 == ozon 0.1745
-FALSE
-1
-2
-2
-3
-- 0.0808834 carbondioxid >> 0.0808834 oxigen
-UP: oxigen 0.0808 - 2
-oxigen 3.3162 == oxigen 0.0808
-FALSE
-3
------------------
-- ozon 5.0661
-- oxigen 3.3971
-- ozon 5.0000
-- carbondioxid 1.5367
----------------
-------NAPOS------
-0
-0
-1
-- 0.169855 oxigen >> 0.169855 ozon
-ozon 5.0661 == ozon 0.1698
-FALSE
-1
-2
-2
-3
-- 0.0768392 carbondioxid >> 0.0768392 oxigen
-UP: oxigen 0.0768 - 2
-oxigen 3.2272 == oxigen 0.0768
-FALSE
-3
------------------
-- ozon 5.2359
-- oxigen 3.3040
-- ozon 5.0000
-- carbondioxid 1.4599
+- carbondioxid 3.3657
+- oxigen 3.3171
+- ozon 3.3171
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT8------------
-ozon 5.2359
-oxigen 3.3040
-ozon 5.0000
-carbondioxid 1.4599
+carbondioxid 3.3657
+oxigen 3.3171
+ozon 3.3171
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.165204 oxigen >> 0.165204 ozon
-ozon 5.2359 == ozon 0.1652
-FALSE
-1
-2
-2
-3
-- 0.0729973 carbondioxid >> 0.0729973 oxigen
-UP: oxigen 0.0729 - 2
-oxigen 3.1388 == oxigen 0.0729
-FALSE
-3
------------------
-- ozon 5.4011
-- oxigen 3.2118
-- ozon 5.0000
-- carbondioxid 1.3869
+------MAS------
+- 0.33171 oxigen >> 0.33171 carbondioxid
+- 0.165855 ozon >> 0.165855 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.160594 oxigen >> 0.160594 ozon
-ozon 5.4011 == ozon 0.1605
-FALSE
-1
-2
-2
-3
-- 0.0693474 carbondioxid >> 0.0693474 oxigen
-UP: oxigen 0.0693 - 2
-oxigen 3.0512 == oxigen 0.0693
-FALSE
-3
------------------
-- ozon 5.5617
-- oxigen 3.1206
-- ozon 5.0000
-- carbondioxid 1.3176
----------------
-------NAPOS------
-0
-0
-1
-- 0.156032 oxigen >> 0.156032 ozon
-ozon 5.5617 == ozon 0.1560
-FALSE
-1
-2
-2
-3
-- 0.06588 carbondioxid >> 0.06588 oxigen
-UP: oxigen 0.0658 - 2
-oxigen 2.9646 == oxigen 0.0658
-FALSE
-3
------------------
-- ozon 5.7177
-- oxigen 3.0304
-- ozon 5.0000
-- carbondioxid 1.2517
+- carbondioxid 3.6975
+- oxigen 3.1512
+- ozon 3.1512
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT9------------
-ozon 5.7177
-oxigen 3.0304
-ozon 5.0000
-carbondioxid 1.2517
+carbondioxid 3.6975
+oxigen 3.1512
+ozon 3.1512
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.151524 oxigen >> 0.151524 ozon
-ozon 5.7177 == ozon 0.1515
-FALSE
-1
-2
-2
-3
-- 0.062586 carbondioxid >> 0.062586 oxigen
-UP: oxigen 0.0625 - 2
-oxigen 2.8789 == oxigen 0.0625
-FALSE
-3
------------------
-- ozon 5.8693
-- oxigen 2.9415
-- ozon 5.0000
-- carbondioxid 1.1891
+------MAS------
+- 0.315125 oxigen >> 0.315125 carbondioxid
+- 0.157562 ozon >> 0.157562 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.147077 oxigen >> 0.147077 ozon
-ozon 5.8693 == ozon 0.1470
-FALSE
-1
-2
-2
-3
-- 0.0594567 carbondioxid >> 0.0594567 oxigen
-UP: oxigen 0.0594 - 2
-oxigen 2.7944 == oxigen 0.0594
-FALSE
-3
------------------
-- ozon 6.0164
-- oxigen 2.8539
-- ozon 5.0000
-- carbondioxid 1.1296
----------------
-------NAPOS------
-0
-0
-1
-- 0.142696 oxigen >> 0.142696 ozon
-ozon 6.0164 == ozon 0.1426
-FALSE
-1
-2
-2
-3
-- 0.0564839 carbondioxid >> 0.0564839 oxigen
-UP: oxigen 0.0564 - 2
-oxigen 2.7112 == oxigen 0.0564
-FALSE
-3
------------------
-- ozon 6.1590
-- oxigen 2.7677
-- ozon 5.0000
-- carbondioxid 1.0731
+- carbondioxid 4.0126
+- oxigen 2.9936
+- ozon 2.9936
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT10------------
-ozon 6.1590
-oxigen 2.7677
-ozon 5.0000
-carbondioxid 1.0731
+carbondioxid 4.0126
+oxigen 2.9936
+ozon 2.9936
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.138386 oxigen >> 0.138386 ozon
-ozon 6.1590 == ozon 0.1383
-FALSE
-1
-2
-2
-3
-- 0.0536597 carbondioxid >> 0.0536597 oxigen
-UP: oxigen 0.0536 - 2
-oxigen 2.6293 == oxigen 0.0536
-FALSE
-3
------------------
-- ozon 6.2974
-- oxigen 2.6829
-- ozon 5.0000
-- carbondioxid 1.0195
+------MAS------
+- 0.299368 oxigen >> 0.299368 carbondioxid
+- 0.149684 ozon >> 0.149684 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.134149 oxigen >> 0.134149 ozon
-ozon 6.2974 == ozon 0.1341
-FALSE
-1
-2
-2
-3
-- 0.0509767 carbondioxid >> 0.0509767 oxigen
-UP: oxigen 0.0509 - 2
-oxigen 2.5488 == oxigen 0.0509
-FALSE
-3
------------------
-- ozon 6.4316
-- oxigen 2.5998
-- ozon 5.0000
-- carbondioxid 0.9685
----------------
-------NAPOS------
-0
-0
-1
-- 0.129991 oxigen >> 0.129991 ozon
-ozon 6.4316 == ozon 0.1299
-FALSE
-1
-2
-2
-3
-- 0.0484279 carbondioxid >> 0.0484279 oxigen
-UP: oxigen 0.0484 - 2
-oxigen 2.4698 == oxigen 0.0484
-FALSE
-3
------------------
-- ozon 6.5616
-- oxigen 2.5182
-- ozon 5.0000
-- carbondioxid 0.9201
+- carbondioxid 4.3119
+- oxigen 2.8440
+- ozon 2.8440
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT11------------
-ozon 6.5616
-oxigen 2.5182
-ozon 5.0000
-carbondioxid 0.9201
+carbondioxid 4.3119
+oxigen 2.8440
+ozon 2.8440
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.125912 oxigen >> 0.125912 ozon
-ozon 6.5616 == ozon 0.1259
-FALSE
-1
-2
-2
-3
-- 0.0460065 carbondioxid >> 0.0460065 oxigen
-UP: oxigen 0.0460 - 2
-oxigen 2.3923 == oxigen 0.0460
-FALSE
-3
------------------
-- ozon 6.6875
-- oxigen 2.4383
-- ozon 5.0000
-- carbondioxid 0.8741
+------MAS------
+- 0.2844 oxigen >> 0.2844 carbondioxid
+- 0.1422 ozon >> 0.1422 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.121917 oxigen >> 0.121917 ozon
-ozon 6.6875 == ozon 0.1219
-FALSE
-1
-2
-2
-3
-- 0.0437062 carbondioxid >> 0.0437062 oxigen
-UP: oxigen 0.0437 - 2
-oxigen 2.3164 == oxigen 0.0437
-FALSE
-3
------------------
-- ozon 6.8094
-- oxigen 2.3601
-- ozon 5.0000
-- carbondioxid 0.8304
----------------
-------NAPOS------
-0
-0
-1
-- 0.118007 oxigen >> 0.118007 ozon
-ozon 6.8094 == ozon 0.1180
-FALSE
-1
-2
-2
-3
-- 0.0415208 carbondioxid >> 0.0415208 oxigen
-UP: oxigen 0.0415 - 2
-oxigen 2.2421 == oxigen 0.0415
-FALSE
-3
------------------
-- ozon 6.9274
-- oxigen 2.2836
-- ozon 5.0000
-- carbondioxid 0.7888
+- carbondioxid 4.5963
+- oxigen 2.7018
+- ozon 2.7018
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT12------------
-ozon 6.9274
-oxigen 2.2836
-ozon 5.0000
-carbondioxid 0.7888
+carbondioxid 4.5963
+oxigen 2.7018
+ozon 2.7018
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.114182 oxigen >> 0.114182 ozon
-ozon 6.9274 == ozon 0.1141
-FALSE
-1
-2
-2
-3
-- 0.0394448 carbondioxid >> 0.0394448 oxigen
-UP: oxigen 0.0394 - 2
-oxigen 2.1694 == oxigen 0.0394
-FALSE
-3
------------------
-- ozon 7.0416
-- oxigen 2.2089
-- ozon 5.0000
-- carbondioxid 0.7494
+------MAS------
+- 0.27018 oxigen >> 0.27018 carbondioxid
+- 0.13509 ozon >> 0.13509 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.110445 oxigen >> 0.110445 ozon
-ozon 7.0416 == ozon 0.1104
-FALSE
-1
-2
-2
-3
-- 0.0374726 carbondioxid >> 0.0374726 oxigen
-UP: oxigen 0.0374 - 2
-oxigen 2.0984 == oxigen 0.0374
-FALSE
-3
------------------
-- ozon 7.1520
-- oxigen 2.1359
-- ozon 5.0000
-- carbondioxid 0.7119
----------------
-------NAPOS------
-0
-0
-1
-- 0.106797 oxigen >> 0.106797 ozon
-ozon 7.1520 == ozon 0.1067
-FALSE
-1
-2
-2
-3
-- 0.0355989 carbondioxid >> 0.0355989 oxigen
-UP: oxigen 0.0355 - 2
-oxigen 2.0291 == oxigen 0.0355
-FALSE
-3
------------------
-- ozon 7.2588
-- oxigen 2.0647
-- ozon 5.0000
-- carbondioxid 0.6763
+- carbondioxid 4.8665
+- oxigen 2.5667
+- ozon 2.5667
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT13------------
-ozon 7.2588
-oxigen 2.0647
-ozon 5.0000
-carbondioxid 0.6763
+carbondioxid 4.8665
+oxigen 2.5667
+ozon 2.5667
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.103237 oxigen >> 0.103237 ozon
-ozon 7.2588 == ozon 0.1032
-FALSE
-1
-2
-2
-3
-- 0.033819 carbondioxid >> 0.033819 oxigen
-UP: oxigen 0.0338 - 2
-oxigen 1.9615 == oxigen 0.0338
-FALSE
-3
------------------
-- ozon 7.3621
-- oxigen 1.9953
-- ozon 5.0000
-- carbondioxid 0.6425
+------MAS------
+- 0.256671 oxigen >> 0.256671 carbondioxid
+- 0.128336 ozon >> 0.128336 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.099766 oxigen >> 0.099766 ozon
-ozon 7.3621 == ozon 0.0997
-FALSE
-1
-2
-2
-3
-- 0.032128 carbondioxid >> 0.032128 oxigen
-UP: oxigen 0.0321 - 2
-oxigen 1.8955 == oxigen 0.0321
-FALSE
-3
------------------
-- ozon 7.4618
-- oxigen 1.9276
-- ozon 5.0000
-- carbondioxid 0.6104
----------------
-------NAPOS------
-0
-0
-1
-- 0.0963841 oxigen >> 0.0963841 ozon
-ozon 7.4618 == ozon 0.0963
-FALSE
-1
-2
-2
-3
-- 0.0305216 carbondioxid >> 0.0305216 oxigen
-UP: oxigen 0.0305 - 2
-oxigen 1.8312 == oxigen 0.0305
-FALSE
-3
------------------
-- ozon 7.5582
-- oxigen 1.8618
-- ozon 5.0000
-- carbondioxid 0.5799
+- carbondioxid 5.1232
+- oxigen 2.4383
+- ozon 2.4383
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT14------------
-ozon 7.5582
-oxigen 1.8618
-ozon 5.0000
-carbondioxid 0.5799
+carbondioxid 5.1232
+oxigen 2.4383
+ozon 2.4383
+carbondioxid 5.0000
 -------------------------------
-------NAPOS------
-0
-0
-1
-- 0.093091 oxigen >> 0.093091 ozon
-ozon 7.5582 == ozon 0.0930
-FALSE
-1
-2
-2
-3
-- 0.0289956 carbondioxid >> 0.0289956 oxigen
-UP: oxigen 0.0289 - 2
-oxigen 1.7687 == oxigen 0.0289
-FALSE
-3
------------------
-- ozon 7.6513
-- oxigen 1.7977
-- ozon 5.0000
-- carbondioxid 0.5509
+------MAS------
+- 0.243837 oxigen >> 0.243837 carbondioxid
+- 0.121919 ozon >> 0.121919 oxigen
 ---------------
-------NAPOS------
-0
-0
-1
-- 0.0898862 oxigen >> 0.0898862 ozon
-ozon 7.6513 == ozon 0.0898
-FALSE
-1
-2
-2
-3
-- 0.0275458 carbondioxid >> 0.0275458 oxigen
-UP: oxigen 0.0275 - 2
-oxigen 1.7078 == oxigen 0.0275
-FALSE
-3
------------------
-- ozon 7.7412
-- oxigen 1.7353
-- ozon 5.0000
-- carbondioxid 0.5233
----------------
-------NAPOS------
-0
-0
-1
-- 0.0867692 oxigen >> 0.0867692 ozon
-ozon 7.7412 == ozon 0.0867
-FALSE
-1
-2
-2
-3
-- 0.0261685 carbondioxid >> 0.0261685 oxigen
-UP: oxigen 0.0261 - 2
-oxigen 1.6486 == oxigen 0.0261
-FALSE
-3
------------------
-- ozon 7.8280
-- oxigen 1.6747
-- ozon 5.0000
-- carbondioxid 0.4972
+- carbondioxid 5.3670
+- oxigen 2.3164
+- ozon 2.3164
+- carbondioxid 5.0000
 ---------------
 ------------OUTPUT15------------
-ozon 7.8280
-oxigen 1.6747
-ozon 5.0000
+carbondioxid 5.3670
+oxigen 2.3164
+ozon 2.3164
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.231646 oxigen >> 0.231646 carbondioxid
+- 0.115823 ozon >> 0.115823 oxigen
+---------------
+- carbondioxid 5.5987
+- oxigen 2.2006
+- ozon 2.2006
+- carbondioxid 5.0000
+---------------
+------------OUTPUT16------------
+carbondioxid 5.5987
+oxigen 2.2006
+ozon 2.2006
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.220063 oxigen >> 0.220063 carbondioxid
+- 0.110032 ozon >> 0.110032 oxigen
+---------------
+- carbondioxid 5.8187
+- oxigen 2.0906
+- ozon 2.0906
+- carbondioxid 5.0000
+---------------
+------------OUTPUT17------------
+carbondioxid 5.8187
+oxigen 2.0906
+ozon 2.0906
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.20906 oxigen >> 0.20906 carbondioxid
+- 0.10453 ozon >> 0.10453 oxigen
+---------------
+- carbondioxid 6.0278
+- oxigen 1.9860
+- ozon 1.9860
+- carbondioxid 5.0000
+---------------
+------------OUTPUT18------------
+carbondioxid 6.0278
+oxigen 1.9860
+ozon 1.9860
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.198607 oxigen >> 0.198607 carbondioxid
+- 0.0993036 ozon >> 0.0993036 oxigen
+---------------
+- carbondioxid 6.2264
+- oxigen 1.8867
+- ozon 1.8867
+- carbondioxid 5.0000
+---------------
+------------OUTPUT19------------
+carbondioxid 6.2264
+oxigen 1.8867
+ozon 1.8867
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.188677 oxigen >> 0.188677 carbondioxid
+- 0.0943384 ozon >> 0.0943384 oxigen
+---------------
+- carbondioxid 6.4151
+- oxigen 1.7924
+- ozon 1.7924
+- carbondioxid 5.0000
+---------------
+------------OUTPUT20------------
+carbondioxid 6.4151
+oxigen 1.7924
+ozon 1.7924
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.179243 oxigen >> 0.179243 carbondioxid
+- 0.0896215 ozon >> 0.0896215 oxigen
+---------------
+- carbondioxid 6.5943
+- oxigen 1.7028
+- ozon 1.7028
+- carbondioxid 5.0000
+---------------
+------------OUTPUT21------------
+carbondioxid 6.5943
+oxigen 1.7028
+ozon 1.7028
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.170281 oxigen >> 0.170281 carbondioxid
+- 0.0851404 ozon >> 0.0851404 oxigen
+---------------
+- carbondioxid 6.7646
+- oxigen 1.6176
+- ozon 1.6176
+- carbondioxid 5.0000
+---------------
+------------OUTPUT22------------
+carbondioxid 6.7646
+oxigen 1.6176
+ozon 1.6176
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.161767 oxigen >> 0.161767 carbondioxid
+- 0.0808834 ozon >> 0.0808834 oxigen
+---------------
+- carbondioxid 6.9264
+- oxigen 1.5367
+- ozon 1.5367
+- carbondioxid 5.0000
+---------------
+------------OUTPUT23------------
+carbondioxid 6.9264
+oxigen 1.5367
+ozon 1.5367
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.153678 oxigen >> 0.153678 carbondioxid
+- 0.0768392 ozon >> 0.0768392 oxigen
+---------------
+- carbondioxid 7.0801
+- oxigen 1.4599
+- ozon 1.4599
+- carbondioxid 5.0000
+---------------
+------------OUTPUT24------------
+carbondioxid 7.0801
+oxigen 1.4599
+ozon 1.4599
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.145995 oxigen >> 0.145995 carbondioxid
+- 0.0729973 ozon >> 0.0729973 oxigen
+---------------
+- carbondioxid 7.2261
+- oxigen 1.3869
+- ozon 1.3869
+- carbondioxid 5.0000
+---------------
+------------OUTPUT25------------
+carbondioxid 7.2261
+oxigen 1.3869
+ozon 1.3869
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.138695 oxigen >> 0.138695 carbondioxid
+- 0.0693474 ozon >> 0.0693474 oxigen
+---------------
+- carbondioxid 7.3647
+- oxigen 1.3176
+- ozon 1.3176
+- carbondioxid 5.0000
+---------------
+------------OUTPUT26------------
+carbondioxid 7.3647
+oxigen 1.3176
+ozon 1.3176
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.13176 oxigen >> 0.13176 carbondioxid
+- 0.06588 ozon >> 0.06588 oxigen
+---------------
+- carbondioxid 7.4965
+- oxigen 1.2517
+- ozon 1.2517
+- carbondioxid 5.0000
+---------------
+------------OUTPUT27------------
+carbondioxid 7.4965
+oxigen 1.2517
+ozon 1.2517
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.125172 oxigen >> 0.125172 carbondioxid
+- 0.062586 ozon >> 0.062586 oxigen
+---------------
+- carbondioxid 7.6217
+- oxigen 1.1891
+- ozon 1.1891
+- carbondioxid 5.0000
+---------------
+------------OUTPUT28------------
+carbondioxid 7.6217
+oxigen 1.1891
+ozon 1.1891
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.118913 oxigen >> 0.118913 carbondioxid
+- 0.0594567 ozon >> 0.0594567 oxigen
+---------------
+- carbondioxid 7.7406
+- oxigen 1.1296
+- ozon 1.1296
+- carbondioxid 5.0000
+---------------
+------------OUTPUT29------------
+carbondioxid 7.7406
+oxigen 1.1296
+ozon 1.1296
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.112968 oxigen >> 0.112968 carbondioxid
+- 0.0564839 ozon >> 0.0564839 oxigen
+---------------
+- carbondioxid 7.8536
+- oxigen 1.0731
+- ozon 1.0731
+- carbondioxid 5.0000
+---------------
+------------OUTPUT30------------
+carbondioxid 7.8536
+oxigen 1.0731
+ozon 1.0731
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.107319 oxigen >> 0.107319 carbondioxid
+- 0.0536597 ozon >> 0.0536597 oxigen
+---------------
+- carbondioxid 7.9609
+- oxigen 1.0195
+- ozon 1.0195
+- carbondioxid 5.0000
+---------------
+------------OUTPUT31------------
+carbondioxid 7.9609
+oxigen 1.0195
+ozon 1.0195
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.101953 oxigen >> 0.101953 carbondioxid
+- 0.0509767 ozon >> 0.0509767 oxigen
+---------------
+- carbondioxid 8.0628
+- oxigen 0.9685
+- ozon 0.9685
+- carbondioxid 5.0000
+---------------
+------------OUTPUT32------------
+carbondioxid 8.0628
+oxigen 0.9685
+ozon 0.9685
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0968557 oxigen >> 0.0968557 carbondioxid
+- 0.0484279 ozon >> 0.0484279 oxigen
+---------------
+- carbondioxid 8.1597
+- oxigen 0.9201
+- ozon 0.9201
+- carbondioxid 5.0000
+---------------
+------------OUTPUT33------------
+carbondioxid 8.1597
+oxigen 0.9201
+ozon 0.9201
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.092013 oxigen >> 0.092013 carbondioxid
+- 0.0460065 ozon >> 0.0460065 oxigen
+---------------
+- carbondioxid 8.2517
+- oxigen 0.8741
+- ozon 0.8741
+- carbondioxid 5.0000
+---------------
+------------OUTPUT34------------
+carbondioxid 8.2517
+oxigen 0.8741
+ozon 0.8741
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0874123 oxigen >> 0.0874123 carbondioxid
+- 0.0437062 ozon >> 0.0437062 oxigen
+---------------
+- carbondioxid 8.3391
+- oxigen 0.8304
+- ozon 0.8304
+- carbondioxid 5.0000
+---------------
+------------OUTPUT35------------
+carbondioxid 8.3391
+oxigen 0.8304
+ozon 0.8304
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0830417 oxigen >> 0.0830417 carbondioxid
+- 0.0415208 ozon >> 0.0415208 oxigen
+---------------
+- carbondioxid 8.4222
+- oxigen 0.7888
+- ozon 0.7888
+- carbondioxid 5.0000
+---------------
+------------OUTPUT36------------
+carbondioxid 8.4222
+oxigen 0.7888
+ozon 0.7888
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0788896 oxigen >> 0.0788896 carbondioxid
+- 0.0394448 ozon >> 0.0394448 oxigen
+---------------
+- carbondioxid 8.5010
+- oxigen 0.7494
+- ozon 0.7494
+- carbondioxid 5.0000
+---------------
+------------OUTPUT37------------
+carbondioxid 8.5010
+oxigen 0.7494
+ozon 0.7494
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0749451 oxigen >> 0.0749451 carbondioxid
+- 0.0374726 ozon >> 0.0374726 oxigen
+---------------
+- carbondioxid 8.5760
+- oxigen 0.7119
+- ozon 0.7119
+- carbondioxid 5.0000
+---------------
+------------OUTPUT38------------
+carbondioxid 8.5760
+oxigen 0.7119
+ozon 0.7119
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0711979 oxigen >> 0.0711979 carbondioxid
+- 0.0355989 ozon >> 0.0355989 oxigen
+---------------
+- carbondioxid 8.6472
+- oxigen 0.6763
+- ozon 0.6763
+- carbondioxid 5.0000
+---------------
+------------OUTPUT39------------
+carbondioxid 8.6472
+oxigen 0.6763
+ozon 0.6763
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.067638 oxigen >> 0.067638 carbondioxid
+- 0.033819 ozon >> 0.033819 oxigen
+---------------
+- carbondioxid 8.7148
+- oxigen 0.6425
+- ozon 0.6425
+- carbondioxid 5.0000
+---------------
+------------OUTPUT40------------
+carbondioxid 8.7148
+oxigen 0.6425
+ozon 0.6425
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0642561 oxigen >> 0.0642561 carbondioxid
+- 0.032128 ozon >> 0.032128 oxigen
+---------------
+- carbondioxid 8.7791
+- oxigen 0.6104
+- ozon 0.6104
+- carbondioxid 5.0000
+---------------
+------------OUTPUT41------------
+carbondioxid 8.7791
+oxigen 0.6104
+ozon 0.6104
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0610433 oxigen >> 0.0610433 carbondioxid
+- 0.0305216 ozon >> 0.0305216 oxigen
+---------------
+- carbondioxid 8.8401
+- oxigen 0.5799
+- ozon 0.5799
+- carbondioxid 5.0000
+---------------
+------------OUTPUT42------------
+carbondioxid 8.8401
+oxigen 0.5799
+ozon 0.5799
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0579911 oxigen >> 0.0579911 carbondioxid
+- 0.0289956 ozon >> 0.0289956 oxigen
+---------------
+- carbondioxid 8.8981
+- oxigen 0.5509
+- ozon 0.5509
+- carbondioxid 5.0000
+---------------
+------------OUTPUT43------------
+carbondioxid 8.8981
+oxigen 0.5509
+ozon 0.5509
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0550916 oxigen >> 0.0550916 carbondioxid
+- 0.0275458 ozon >> 0.0275458 oxigen
+---------------
+- carbondioxid 8.9532
+- oxigen 0.5233
+- ozon 0.5233
+- carbondioxid 5.0000
+---------------
+------------OUTPUT44------------
+carbondioxid 8.9532
+oxigen 0.5233
+ozon 0.5233
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.052337 oxigen >> 0.052337 carbondioxid
+- 0.0261685 ozon >> 0.0261685 oxigen
+---------------
+- carbondioxid 9.0055
+- oxigen 0.4972
+- ozon 0.4972
+- carbondioxid 5.0000
+---------------
+------------OUTPUT45------------
+carbondioxid 9.0055
+carbondioxid 5.0000
 -------------------------------

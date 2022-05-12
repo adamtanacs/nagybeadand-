@@ -117,7 +117,7 @@ void Atmosphere::simulate()
                     if (created) {std::cout << "TRUE" << std::endl;} else {std::cout << "FALSE" << std::endl;}
                     #endif
                     if (created)
-                        i+= 2;
+                        i+= 1;
                 }
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
@@ -144,7 +144,7 @@ void Atmosphere::simulate()
                     if (created) {std::cout << "TRUE" << std::endl;} else {std::cout << "FALSE" << std::endl;}
                     #endif
                     if (created)
-                        i += 2;
+                        i += 1;
                 }
                 if (layers[i].getName() == dioxid)
                 {
@@ -158,7 +158,7 @@ void Atmosphere::simulate()
                     if (created) {std::cout << "TRUE" << std::endl;} else {std::cout << "FALSE" << std::endl;}
                     #endif
                     if (created)
-                        i += 2;
+                        i += 1;
                 }
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
@@ -185,7 +185,7 @@ void Atmosphere::simulate()
                     if (created) {std::cout << "TRUE - OZON" << std::endl;} else {std::cout << "FALSE - OZON" << std::endl;}
                     #endif
                     if (created)
-                        i += 2;
+                        i += 1;
                 }
                 if (layers[i].getName() == oxigen)
                 {
@@ -200,7 +200,7 @@ void Atmosphere::simulate()
                     if (created) {std::cout << "TRUE - OXIGEN" << std::endl;} else {std::cout << "FALSE - OXIGEN" << std::endl;}
                     #endif
                     if (created)
-                        i += 2;
+                        i += 1;
                 }
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
