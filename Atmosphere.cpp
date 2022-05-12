@@ -1,6 +1,6 @@
 #include "Atmosphere.hpp"
 
-#define DEBUGE_MODE
+// #define DEBUGE_MODE
 
 void Atmosphere::clearThins()
 {
@@ -224,8 +224,8 @@ void Atmosphere::simulate()
         // if(i >= weather.size())
         //     i = 0;
     }
-    // sleep(1);
     clearThins();
+    // sleep(1);
     // print(weather[i],iteration);
     // i++;iteration++;
     // if(i >= weather.size())
