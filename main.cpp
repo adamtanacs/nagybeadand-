@@ -145,6 +145,34 @@ int main()
             Atm8.getLayer(1).getName() == dioxid, "TEST 08B");
     assertm(iter == 15, "TEST 08 ITERATIONS");
     std::cout << std::endl << "TEST 08 COMPLETED" << std::endl << std::endl;
+
+    // TEST 09
+
+    filename = "input9.txt";
+    Atmosphere Atm9(filename);
+    iter = cycle(Atm9);
+    assertm(round(Atm9.getLayer(0).getSize()*EPSILON)/EPSILON == 4.922 && 
+            Atm9.getLayer(0).getName() == ozon, "TEST 09A");
+    assertm(round(Atm9.getLayer(1).getSize()*EPSILON)/EPSILON == 5 &&
+            Atm9.getLayer(1).getName() == ozon, "TEST 09B");
+    assertm(round(Atm9.getLayer(2).getSize()*EPSILON)/EPSILON == 5 &&
+            Atm9.getLayer(2).getName() == dioxid, "TEST 09C");
+    assertm(iter == 2, "TEST 09 ITERATIONS");
+    std::cout << std::endl << "TEST 09 COMPLETED" << std::endl << std::endl;
+
+    // TEST 10
+
+    filename = "input10.txt";
+    Atmosphere Atm10(filename);
+    iter = cycle(Atm10);
+    assertm(round(Atm10.getLayer(0).getSize()*EPSILON)/EPSILON == 0.764 && 
+            Atm10.getLayer(0).getName() == ozon, "TEST 09A");
+    assertm(round(Atm10.getLayer(1).getSize()*EPSILON)/EPSILON == 0.638 &&
+            Atm10.getLayer(1).getName() == ozon, "TEST 09B");
+    assertm(round(Atm10.getLayer(2).getSize()*EPSILON)/EPSILON == 0.597 &&
+            Atm10.getLayer(2).getName() == dioxid, "TEST 09C");
+    assertm(iter == 19, "TEST 09 ITERATIONS");
+    std::cout << std::endl << "TEST 10 COMPLETED" << std::endl << std::endl;
 }
 
 #endif

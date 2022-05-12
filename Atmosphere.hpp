@@ -18,7 +18,7 @@ private:
     std::vector<Layer> layers;
     std::string weather;
 
-    void clearThins();
+    void clearThins(); //
 
 public:
     Atmosphere(const std::string path) : f(path)
@@ -40,9 +40,9 @@ public:
         //weather = line;
     }
 
-    bool createLayer(const Layer input, const unsigned int index);
+    bool createLayer(const Layer input, const unsigned int index); //
 
-    void upLayer(const Layer input, const unsigned int index);
+    void upLayer(const Layer input, const unsigned int index); //
 
     bool allElementsExits() const; //
 
@@ -52,7 +52,7 @@ public:
 
     int getSize() { return layers.size(); } //
 
-    Layer getLayer(int index) 
+    Layer getLayer(int index) //
     {
         if (index < getSize())
             return layers[index];
