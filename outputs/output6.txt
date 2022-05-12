@@ -1,0 +1,692 @@
+------------OUTPUT0------------
+oxigen 5.0000
+ozon 5.0000
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.5 oxigen >> 0.5 carbondioxid
+---------------
+- carbondioxid 0.5000
+- oxigen 4.5000
+- ozon 5.0000
+- carbondioxid 5.0000
+---------------
+------------OUTPUT1------------
+carbondioxid 0.5000
+oxigen 4.5000
+ozon 5.0000
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.45 oxigen >> 0.45 carbondioxid
+- 0.25 ozon >> 0.25 oxigen
+---------------
+- carbondioxid 0.9500
+- oxigen 4.3000
+- ozon 4.7500
+- carbondioxid 5.0000
+---------------
+------------OUTPUT2------------
+carbondioxid 0.9500
+oxigen 4.3000
+ozon 4.7500
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.43 oxigen >> 0.43 carbondioxid
+- 0.2375 ozon >> 0.2375 oxigen
+---------------
+- carbondioxid 1.3800
+- oxigen 4.1075
+- ozon 4.5125
+- carbondioxid 5.0000
+---------------
+------------OUTPUT3------------
+carbondioxid 1.3800
+oxigen 4.1075
+ozon 4.5125
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.41075 oxigen >> 0.41075 carbondioxid
+- 0.225625 ozon >> 0.225625 oxigen
+---------------
+- carbondioxid 1.7907
+- oxigen 3.9223
+- ozon 4.2868
+- carbondioxid 5.0000
+---------------
+------------OUTPUT4------------
+carbondioxid 1.7907
+oxigen 3.9223
+ozon 4.2868
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.392238 oxigen >> 0.392238 carbondioxid
+- 0.214344 ozon >> 0.214344 oxigen
+---------------
+- carbondioxid 2.1829
+- oxigen 3.7444
+- ozon 4.0725
+- carbondioxid 5.0000
+---------------
+------------OUTPUT5------------
+carbondioxid 2.1829
+oxigen 3.7444
+ozon 4.0725
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.374448 oxigen >> 0.374448 carbondioxid
+- 0.203627 ozon >> 0.203627 oxigen
+---------------
+- carbondioxid 2.5574
+- oxigen 3.5736
+- ozon 3.8689
+- carbondioxid 5.0000
+---------------
+------------OUTPUT6------------
+carbondioxid 2.5574
+oxigen 3.5736
+ozon 3.8689
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.357366 oxigen >> 0.357366 carbondioxid
+- 0.193445 ozon >> 0.193445 oxigen
+---------------
+- carbondioxid 2.9148
+- oxigen 3.4097
+- ozon 3.6754
+- carbondioxid 5.0000
+---------------
+------------OUTPUT7------------
+carbondioxid 2.9148
+oxigen 3.4097
+ozon 3.6754
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.340974 oxigen >> 0.340974 carbondioxid
+- 0.183773 ozon >> 0.183773 oxigen
+---------------
+- carbondioxid 3.2557
+- oxigen 3.2525
+- ozon 3.4916
+- carbondioxid 5.0000
+---------------
+------------OUTPUT8------------
+carbondioxid 3.2557
+oxigen 3.2525
+ozon 3.4916
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.325254 oxigen >> 0.325254 carbondioxid
+- 0.174584 ozon >> 0.174584 oxigen
+---------------
+- carbondioxid 3.5810
+- oxigen 3.1018
+- ozon 3.3171
+- carbondioxid 5.0000
+---------------
+------------OUTPUT9------------
+carbondioxid 3.5810
+oxigen 3.1018
+ozon 3.3171
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.310187 oxigen >> 0.310187 carbondioxid
+- 0.165855 ozon >> 0.165855 oxigen
+---------------
+- carbondioxid 3.8912
+- oxigen 2.9575
+- ozon 3.1512
+- carbondioxid 5.0000
+---------------
+------------OUTPUT10------------
+carbondioxid 3.8912
+oxigen 2.9575
+ozon 3.1512
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.295754 oxigen >> 0.295754 carbondioxid
+- 0.157562 ozon >> 0.157562 oxigen
+---------------
+- carbondioxid 4.1869
+- oxigen 2.8193
+- ozon 2.9936
+- carbondioxid 5.0000
+---------------
+------------OUTPUT11------------
+carbondioxid 4.1869
+oxigen 2.8193
+ozon 2.9936
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.281935 oxigen >> 0.281935 carbondioxid
+- 0.149684 ozon >> 0.149684 oxigen
+---------------
+- carbondioxid 4.4689
+- oxigen 2.6870
+- ozon 2.8440
+- carbondioxid 5.0000
+---------------
+------------OUTPUT12------------
+carbondioxid 4.4689
+oxigen 2.6870
+ozon 2.8440
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.26871 oxigen >> 0.26871 carbondioxid
+- 0.1422 ozon >> 0.1422 oxigen
+---------------
+- carbondioxid 4.7376
+- oxigen 2.5605
+- ozon 2.7018
+- carbondioxid 5.0000
+---------------
+------------OUTPUT13------------
+carbondioxid 4.7376
+oxigen 2.5605
+ozon 2.7018
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.256059 oxigen >> 0.256059 carbondioxid
+- 0.13509 ozon >> 0.13509 oxigen
+---------------
+- carbondioxid 4.9936
+- oxigen 2.4396
+- ozon 2.5667
+- carbondioxid 5.0000
+---------------
+------------OUTPUT14------------
+carbondioxid 4.9936
+oxigen 2.4396
+ozon 2.5667
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.243962 oxigen >> 0.243962 carbondioxid
+- 0.128336 ozon >> 0.128336 oxigen
+---------------
+- carbondioxid 5.2376
+- oxigen 2.3239
+- ozon 2.4383
+- carbondioxid 5.0000
+---------------
+------------OUTPUT15------------
+carbondioxid 5.2376
+oxigen 2.3239
+ozon 2.4383
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.232399 oxigen >> 0.232399 carbondioxid
+- 0.121919 ozon >> 0.121919 oxigen
+---------------
+- carbondioxid 5.4700
+- oxigen 2.2135
+- ozon 2.3164
+- carbondioxid 5.0000
+---------------
+------------OUTPUT16------------
+carbondioxid 5.4700
+oxigen 2.2135
+ozon 2.3164
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.221351 oxigen >> 0.221351 carbondioxid
+- 0.115823 ozon >> 0.115823 oxigen
+---------------
+- carbondioxid 5.6913
+- oxigen 2.1079
+- ozon 2.2006
+- carbondioxid 5.0000
+---------------
+------------OUTPUT17------------
+carbondioxid 5.6913
+oxigen 2.1079
+ozon 2.2006
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.210798 oxigen >> 0.210798 carbondioxid
+- 0.110032 ozon >> 0.110032 oxigen
+---------------
+- carbondioxid 5.9021
+- oxigen 2.0072
+- ozon 2.0906
+- carbondioxid 5.0000
+---------------
+------------OUTPUT18------------
+carbondioxid 5.9021
+oxigen 2.0072
+ozon 2.0906
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.200722 oxigen >> 0.200722 carbondioxid
+- 0.10453 ozon >> 0.10453 oxigen
+---------------
+- carbondioxid 6.1029
+- oxigen 1.9110
+- ozon 1.9860
+- carbondioxid 5.0000
+---------------
+------------OUTPUT19------------
+carbondioxid 6.1029
+oxigen 1.9110
+ozon 1.9860
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.191102 oxigen >> 0.191102 carbondioxid
+- 0.0993036 ozon >> 0.0993036 oxigen
+---------------
+- carbondioxid 6.2940
+- oxigen 1.8192
+- ozon 1.8867
+- carbondioxid 5.0000
+---------------
+------------OUTPUT20------------
+carbondioxid 6.2940
+oxigen 1.8192
+ozon 1.8867
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.181923 oxigen >> 0.181923 carbondioxid
+- 0.0943384 ozon >> 0.0943384 oxigen
+---------------
+- carbondioxid 6.4759
+- oxigen 1.7316
+- ozon 1.7924
+- carbondioxid 5.0000
+---------------
+------------OUTPUT21------------
+carbondioxid 6.4759
+oxigen 1.7316
+ozon 1.7924
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.173164 oxigen >> 0.173164 carbondioxid
+- 0.0896215 ozon >> 0.0896215 oxigen
+---------------
+- carbondioxid 6.6490
+- oxigen 1.6480
+- ozon 1.7028
+- carbondioxid 5.0000
+---------------
+------------OUTPUT22------------
+carbondioxid 6.6490
+oxigen 1.6480
+ozon 1.7028
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.16481 oxigen >> 0.16481 carbondioxid
+- 0.0851404 ozon >> 0.0851404 oxigen
+---------------
+- carbondioxid 6.8139
+- oxigen 1.5684
+- ozon 1.6176
+- carbondioxid 5.0000
+---------------
+------------OUTPUT23------------
+carbondioxid 6.8139
+oxigen 1.5684
+ozon 1.6176
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.156843 oxigen >> 0.156843 carbondioxid
+- 0.0808834 ozon >> 0.0808834 oxigen
+---------------
+- carbondioxid 6.9707
+- oxigen 1.4924
+- ozon 1.5367
+- carbondioxid 5.0000
+---------------
+------------OUTPUT24------------
+carbondioxid 6.9707
+oxigen 1.4924
+ozon 1.5367
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.149247 oxigen >> 0.149247 carbondioxid
+- 0.0768392 ozon >> 0.0768392 oxigen
+---------------
+- carbondioxid 7.1199
+- oxigen 1.4200
+- ozon 1.4599
+- carbondioxid 5.0000
+---------------
+------------OUTPUT25------------
+carbondioxid 7.1199
+oxigen 1.4200
+ozon 1.4599
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.142006 oxigen >> 0.142006 carbondioxid
+- 0.0729973 ozon >> 0.0729973 oxigen
+---------------
+- carbondioxid 7.2619
+- oxigen 1.3510
+- ozon 1.3869
+- carbondioxid 5.0000
+---------------
+------------OUTPUT26------------
+carbondioxid 7.2619
+oxigen 1.3510
+ozon 1.3869
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.135105 oxigen >> 0.135105 carbondioxid
+- 0.0693474 ozon >> 0.0693474 oxigen
+---------------
+- carbondioxid 7.3971
+- oxigen 1.2852
+- ozon 1.3176
+- carbondioxid 5.0000
+---------------
+------------OUTPUT27------------
+carbondioxid 7.3971
+oxigen 1.2852
+ozon 1.3176
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.12853 oxigen >> 0.12853 carbondioxid
+- 0.06588 ozon >> 0.06588 oxigen
+---------------
+- carbondioxid 7.5256
+- oxigen 1.2226
+- ozon 1.2517
+- carbondioxid 5.0000
+---------------
+------------OUTPUT28------------
+carbondioxid 7.5256
+oxigen 1.2226
+ozon 1.2517
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.122265 oxigen >> 0.122265 carbondioxid
+- 0.062586 ozon >> 0.062586 oxigen
+---------------
+- carbondioxid 7.6478
+- oxigen 1.1629
+- ozon 1.1891
+- carbondioxid 5.0000
+---------------
+------------OUTPUT29------------
+carbondioxid 7.6478
+oxigen 1.1629
+ozon 1.1891
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.116297 oxigen >> 0.116297 carbondioxid
+- 0.0594567 ozon >> 0.0594567 oxigen
+---------------
+- carbondioxid 7.7641
+- oxigen 1.1061
+- ozon 1.1296
+- carbondioxid 5.0000
+---------------
+------------OUTPUT30------------
+carbondioxid 7.7641
+oxigen 1.1061
+ozon 1.1296
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.110613 oxigen >> 0.110613 carbondioxid
+- 0.0564839 ozon >> 0.0564839 oxigen
+---------------
+- carbondioxid 7.8748
+- oxigen 1.0519
+- ozon 1.0731
+- carbondioxid 5.0000
+---------------
+------------OUTPUT31------------
+carbondioxid 7.8748
+oxigen 1.0519
+ozon 1.0731
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.1052 oxigen >> 0.1052 carbondioxid
+- 0.0536597 ozon >> 0.0536597 oxigen
+---------------
+- carbondioxid 7.9800
+- oxigen 1.0004
+- ozon 1.0195
+- carbondioxid 5.0000
+---------------
+------------OUTPUT32------------
+carbondioxid 7.9800
+oxigen 1.0004
+ozon 1.0195
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.100046 oxigen >> 0.100046 carbondioxid
+- 0.0509767 ozon >> 0.0509767 oxigen
+---------------
+- carbondioxid 8.0800
+- oxigen 0.9513
+- ozon 0.9685
+- carbondioxid 5.0000
+---------------
+------------OUTPUT33------------
+carbondioxid 8.0800
+oxigen 0.9513
+ozon 0.9685
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0951389 oxigen >> 0.0951389 carbondioxid
+- 0.0484279 ozon >> 0.0484279 oxigen
+---------------
+- carbondioxid 8.1751
+- oxigen 0.9046
+- ozon 0.9201
+- carbondioxid 5.0000
+---------------
+------------OUTPUT34------------
+carbondioxid 8.1751
+oxigen 0.9046
+ozon 0.9201
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0904678 oxigen >> 0.0904678 carbondioxid
+- 0.0460065 ozon >> 0.0460065 oxigen
+---------------
+- carbondioxid 8.2656
+- oxigen 0.8602
+- ozon 0.8741
+- carbondioxid 5.0000
+---------------
+------------OUTPUT35------------
+carbondioxid 8.2656
+oxigen 0.8602
+ozon 0.8741
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0860217 oxigen >> 0.0860217 carbondioxid
+- 0.0437062 ozon >> 0.0437062 oxigen
+---------------
+- carbondioxid 8.3516
+- oxigen 0.8179
+- ozon 0.8304
+- carbondioxid 5.0000
+---------------
+------------OUTPUT36------------
+carbondioxid 8.3516
+oxigen 0.8179
+ozon 0.8304
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0817901 oxigen >> 0.0817901 carbondioxid
+- 0.0415208 ozon >> 0.0415208 oxigen
+---------------
+- carbondioxid 8.4334
+- oxigen 0.7776
+- ozon 0.7888
+- carbondioxid 5.0000
+---------------
+------------OUTPUT37------------
+carbondioxid 8.4334
+oxigen 0.7776
+ozon 0.7888
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0777632 oxigen >> 0.0777632 carbondioxid
+- 0.0394448 ozon >> 0.0394448 oxigen
+---------------
+- carbondioxid 8.5112
+- oxigen 0.7393
+- ozon 0.7494
+- carbondioxid 5.0000
+---------------
+------------OUTPUT38------------
+carbondioxid 8.5112
+oxigen 0.7393
+ozon 0.7494
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0739313 oxigen >> 0.0739313 carbondioxid
+- 0.0374726 ozon >> 0.0374726 oxigen
+---------------
+- carbondioxid 8.5851
+- oxigen 0.7028
+- ozon 0.7119
+- carbondioxid 5.0000
+---------------
+------------OUTPUT39------------
+carbondioxid 8.5851
+oxigen 0.7028
+ozon 0.7119
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0702855 oxigen >> 0.0702855 carbondioxid
+- 0.0355989 ozon >> 0.0355989 oxigen
+---------------
+- carbondioxid 8.6554
+- oxigen 0.6681
+- ozon 0.6763
+- carbondioxid 5.0000
+---------------
+------------OUTPUT40------------
+carbondioxid 8.6554
+oxigen 0.6681
+ozon 0.6763
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0668168 oxigen >> 0.0668168 carbondioxid
+- 0.033819 ozon >> 0.033819 oxigen
+---------------
+- carbondioxid 8.7222
+- oxigen 0.6351
+- ozon 0.6425
+- carbondioxid 5.0000
+---------------
+------------OUTPUT41------------
+carbondioxid 8.7222
+oxigen 0.6351
+ozon 0.6425
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.063517 oxigen >> 0.063517 carbondioxid
+- 0.032128 ozon >> 0.032128 oxigen
+---------------
+- carbondioxid 8.7857
+- oxigen 0.6037
+- ozon 0.6104
+- carbondioxid 5.0000
+---------------
+------------OUTPUT42------------
+carbondioxid 8.7857
+oxigen 0.6037
+ozon 0.6104
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0603781 oxigen >> 0.0603781 carbondioxid
+- 0.0305216 ozon >> 0.0305216 oxigen
+---------------
+- carbondioxid 8.8461
+- oxigen 0.5739
+- ozon 0.5799
+- carbondioxid 5.0000
+---------------
+------------OUTPUT43------------
+carbondioxid 8.8461
+oxigen 0.5739
+ozon 0.5799
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0573925 oxigen >> 0.0573925 carbondioxid
+- 0.0289956 ozon >> 0.0289956 oxigen
+---------------
+- carbondioxid 8.9035
+- oxigen 0.5455
+- ozon 0.5509
+- carbondioxid 5.0000
+---------------
+------------OUTPUT44------------
+carbondioxid 8.9035
+oxigen 0.5455
+ozon 0.5509
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0545528 oxigen >> 0.0545528 carbondioxid
+- 0.0275458 ozon >> 0.0275458 oxigen
+---------------
+- carbondioxid 8.9581
+- oxigen 0.5185
+- ozon 0.5233
+- carbondioxid 5.0000
+---------------
+------------OUTPUT45------------
+carbondioxid 8.9581
+oxigen 0.5185
+ozon 0.5233
+carbondioxid 5.0000
+-------------------------------
+------MAS------
+- 0.0518521 oxigen >> 0.0518521 carbondioxid
+- 0.0261685 ozon >> 0.0261685 oxigen
+---------------
+- carbondioxid 9.0099
+- oxigen 0.4928
+- ozon 0.4972
+- carbondioxid 5.0000
+---------------
+------------OUTPUT46------------
+carbondioxid 9.0099
+carbondioxid 5.0000
+-------------------------------

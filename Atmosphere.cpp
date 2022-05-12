@@ -98,6 +98,7 @@ void Atmosphere::simulate()
             std::cout << "------ZIVATAR------" << std::endl;
             for (unsigned int i = 0; i < layers.size(); i++)
             {
+                // std::cout << i << std::endl;
                 if (layers[i].getName() == oxigen)
                 {
                     double tmp = layers[i].getSize() * 0.5; // 50% ozon
@@ -105,10 +106,12 @@ void Atmosphere::simulate()
                                 << " >> " << tmp << " ozon" << std::endl;
                     layers[i].setSize(layers[i].getSize() - tmp);
                     Layer newLayer('z', tmp);
-                    bool created = createLayer(newLayer, i+1);
+                    bool created = createLayer(newLayer, i);
+                    // if (created) {std::cout << "TRUE";} else {std::cout << "FALSE";}
                     if (created)
-                        i++;
+                        i+= 2;
                 }
+                // std::cout << i << std::endl;
             }
             std::cout << "-------------------" << std::endl;
             break;
@@ -116,6 +119,7 @@ void Atmosphere::simulate()
             std::cout << "------NAPOS------" << std::endl;
             for (unsigned int i = 0; i < layers.size(); i++)
             {
+                // std::cout << i << std::endl;
                 if (layers[i].getName() == oxigen)
                 {
                     double tmp = layers[i].getSize() * 0.05; // 5% ozon
@@ -124,8 +128,9 @@ void Atmosphere::simulate()
                     layers[i].setSize(layers[i].getSize() - tmp);
                     Layer newLayer('z', tmp);
                     bool created = createLayer(newLayer, i);
+                    // if (created) {std::cout << "TRUE";} else {std::cout << "FALSE";}
                     if (created)
-                        i++;
+                        i += 2;
                 }
                 if (layers[i].getName() == dioxid)
                 {
@@ -135,9 +140,11 @@ void Atmosphere::simulate()
                     layers[i].setSize(layers[i].getSize() - tmp);
                     Layer newLayer('x', tmp);
                     bool created = createLayer(newLayer, i);
+                    // if (created) {std::cout << "TRUE";} else {std::cout << "FALSE";}
                     if (created)
-                        i++;
+                        i += 2;
                 }
+                // std::cout << i << std::endl;
             }
             std::cout << "-----------------" << std::endl;
             break;
@@ -145,6 +152,7 @@ void Atmosphere::simulate()
             std::cout << "------MAS------" << std::endl;
             for (unsigned int i = 0; i < layers.size(); i++)
             {
+                // std::cout << i << std::endl;
                 if (layers[i].getName() == ozon)
                 {
                     double tmp = layers[i].getSize() * 0.05; // 5% oxigen
@@ -152,7 +160,8 @@ void Atmosphere::simulate()
                                 << " >> " << tmp << " oxigen" << std::endl;
                     layers[i].setSize(layers[i].getSize() - tmp);
                     Layer newLayer('x', tmp);
-                    bool created = createLayer(newLayer, i+1);
+                    bool created = createLayer(newLayer, i);
+                    // if (created) {std::cout << "TRUE";} else {std::cout << "FALSE";}
                     if (created)
                         i += 2;
                 }
@@ -163,10 +172,12 @@ void Atmosphere::simulate()
                                 << " >> " << tmp << " carbondioxid" << std::endl;
                     layers[i].setSize(layers[i].getSize() - tmp);
                     Layer newLayer('s', tmp);
-                    bool created = createLayer(newLayer, i+1);
+                    bool created = createLayer(newLayer, i);
+                    // if (created) {std::cout << "TRUE";} else {std::cout << "FALSE";}
                     if (created)
                         i += 2;
                 }
+                // std::cout << i << std::endl;
             }
             std::cout << "---------------" << std::endl;
             break;
