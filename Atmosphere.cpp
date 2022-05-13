@@ -96,12 +96,12 @@ void Atmosphere::simulate()
     for (unsigned int j = 0; j < weather.size(); j++)
     // while (allElementsExits())
     {
-        switch (weather[j])
+        for (unsigned int i = 0; i < layers.size(); i++)
         {
-        case 'z': // zivatar
-            std::cout << "------ZIVATAR------" << std::endl;
-            for (unsigned int i = 0; i < layers.size(); i++)
+            switch (weather[j])
             {
+            case 'z': // zivatar
+                std::cout << "------ZIVATAR------" << std::endl;
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
                 #endif
@@ -122,13 +122,10 @@ void Atmosphere::simulate()
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
                 #endif
-            }
-            std::cout << "-------------------" << std::endl;
-            break;
-        case 'n': // napos
-            std::cout << "------NAPOS------" << std::endl;
-            for (unsigned int i = 0; i < layers.size(); i++)
-            {
+                std::cout << "-------------------" << std::endl;
+                break;
+            case 'n': // napos
+                std::cout << "------NAPOS------" << std::endl;
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
                 #endif
@@ -144,7 +141,7 @@ void Atmosphere::simulate()
                     if (created) {std::cout << "TRUE" << std::endl;} else {std::cout << "FALSE" << std::endl;}
                     #endif
                     if (created)
-                        i += 1;
+                        i++;
                 }
                 if (layers[i].getName() == dioxid)
                 {
@@ -158,18 +155,15 @@ void Atmosphere::simulate()
                     if (created) {std::cout << "TRUE" << std::endl;} else {std::cout << "FALSE" << std::endl;}
                     #endif
                     if (created)
-                        i += 1;
+                        i++;
                 }
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
                 #endif
-            }
-            std::cout << "-----------------" << std::endl;
-            break;
-        case 'm': // mas
-            std::cout << "------MAS------" << std::endl;
-            for (unsigned int i = 0; i < layers.size(); i++)
-            {
+                std::cout << "-----------------" << std::endl;
+                break;
+            case 'm': // mas
+                std::cout << "------MAS------" << std::endl;
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
                 #endif
@@ -185,7 +179,7 @@ void Atmosphere::simulate()
                     if (created) {std::cout << "TRUE - OZON" << std::endl;} else {std::cout << "FALSE - OZON" << std::endl;}
                     #endif
                     if (created)
-                        i += 1;
+                        i++;
                 }
                 if (layers[i].getName() == oxigen)
                 {
@@ -200,18 +194,18 @@ void Atmosphere::simulate()
                     if (created) {std::cout << "TRUE - OXIGEN" << std::endl;} else {std::cout << "FALSE - OXIGEN" << std::endl;}
                     #endif
                     if (created)
-                        i += 1;
+                        i++;
                 }
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
                 #endif
-            }
-            std::cout << "---------------" << std::endl;
-            break;
+                std::cout << "---------------" << std::endl;
+                break;
 
-        default:
-            throw std::invalid_argument("No weather like this found!");
-            break;
+            default:
+                throw std::invalid_argument("No weather like this found!");
+                break;
+            }
         }
         for(unsigned int i = 0; i < layers.size();i++)
         {

@@ -166,13 +166,22 @@ int main()
     Atmosphere Atm10(filename);
     iter = cycle(Atm10);
     assertm(round(Atm10.getLayer(0).getSize()*EPSILON)/EPSILON == 0.764 && 
-            Atm10.getLayer(0).getName() == ozon, "TEST 09A");
+            Atm10.getLayer(0).getName() == ozon, "TEST 10A");
     assertm(round(Atm10.getLayer(1).getSize()*EPSILON)/EPSILON == 0.638 &&
-            Atm10.getLayer(1).getName() == ozon, "TEST 09B");
+            Atm10.getLayer(1).getName() == ozon, "TEST 10B");
     assertm(round(Atm10.getLayer(2).getSize()*EPSILON)/EPSILON == 0.597 &&
-            Atm10.getLayer(2).getName() == dioxid, "TEST 09C");
-    assertm(iter == 19, "TEST 09 ITERATIONS");
+            Atm10.getLayer(2).getName() == dioxid, "TEST 10C");
+    assertm(iter == 19, "TEST 10 ITERATIONS");
     std::cout << std::endl << "TEST 10 COMPLETED" << std::endl << std::endl;
+
+    // TEST 11
+
+    filename = "input11.txt";
+    Atmosphere Atm11(filename);
+    iter = cycle(Atm11);
+    assertm(Atm11.getSize() == 0, "TEST 11");
+    assertm(iter == 0, "TEST 11 ITERATIONS");
+    std::cout << std::endl << "TEST 11 COMPLETED" << std::endl << std::endl;
 }
 
 #endif
