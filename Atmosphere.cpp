@@ -1,4 +1,5 @@
 #include "Atmosphere.hpp"
+#include "Layer.hpp"
 
 // #define DEBUGE_MODE
 
@@ -71,7 +72,8 @@ bool Atmosphere::allElementsExits() const
 {
     bool ox, di, oz; // oxigen, dioxid, ozon
     ox = di = oz = false;
-    for (unsigned int i = 0; i < layers.size(); i++)
+    unsigned int i = 0;
+    while (i < layers.size() && !(ox && di && oz))
     {
         if (layers[i].getName() == oxigen)
         {
@@ -85,23 +87,24 @@ bool Atmosphere::allElementsExits() const
         {
             oz = true;
         }
+        i++;
     }
     return ox && di && oz;
 }
 
 void Atmosphere::simulate()
 {
-    // unsigned int i = 0;
-    // unsigned int iteration = 1;
-    for (unsigned int j = 0; j < weather.size(); j++)
-    // while (allElementsExits())
+    unsigned int j = 0;
+    unsigned int iteration = 1;
+    // for (unsigned int j = 0; j < weather.size(); j++)
+    while (allElementsExits())
     {
         for (unsigned int i = 0; i < layers.size(); i++)
         {
             switch (weather[j])
             {
             case 'z': // zivatar
-                std::cout << "------ZIVATAR------" << std::endl;
+                std::cout << "------ZIVATAR- " << layers[i].toString() << std::endl;
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
                 #endif
@@ -125,7 +128,7 @@ void Atmosphere::simulate()
                 std::cout << "-------------------" << std::endl;
                 break;
             case 'n': // napos
-                std::cout << "------NAPOS------" << std::endl;
+                std::cout << "------NAPOS- " << layers[i].toString() << std::endl;
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
                 #endif
@@ -163,7 +166,7 @@ void Atmosphere::simulate()
                 std::cout << "-----------------" << std::endl;
                 break;
             case 'm': // mas
-                std::cout << "------MAS------" << std::endl;
+                std::cout << "----MAS- " << layers[i].toString() << std::endl;
                 #ifdef DEBUGE_MODE 
                 std::cout << i << std::endl;
                 #endif
@@ -207,18 +210,17 @@ void Atmosphere::simulate()
                 break;
             }
         }
-        for(unsigned int i = 0; i < layers.size();i++)
-        {
-            std::cout << "- " << layers[i].toString() << std::endl;
-        }
+        clearThins();
+        print(iteration);
+        // for(unsigned int i = 0; i < layers.size();i++)
+        // {
+        //     std::cout << "- " << layers[i].toString() << std::endl;
+        // }
         std::cout << "---------------" << std::endl;
-        
-        // print(weather[i],iteration);
-        // i++;iteration++;
-        // if(i >= weather.size())
-        //     i = 0;
+        j++;iteration++;
+        if(j >= weather.size())
+            j = 0;
     }
-    clearThins();
     // sleep(1);
     // print(weather[i],iteration);
     // i++;iteration++;

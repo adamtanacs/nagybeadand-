@@ -38,6 +38,6 @@ std::string Layer::toString() const
         throw std::invalid_argument("No layer name found!");
         break;
     }
-    matName = matName + " " + std::to_string(getSize()).substr(0, log10(100000) + 1);
+    matName = matName + " " + std::to_string(getSize()).substr(0, 6);
     return matName;
 }

@@ -3,80 +3,64 @@ oxigen 5.0000
 ozon 5.0000
 carbondioxid 5.0000
 -------------------------------
-------ZIVATAR------
+------ZIVATAR- oxigen 5.0000
 - 2.5 oxigen >> 2.5 ozon
 -------------------
-------ZIVATAR------
+------ZIVATAR- ozon 5.0000
 -------------------
-------ZIVATAR------
+------ZIVATAR- carbondioxid 5.0000
 -------------------
-- ozon 2.5000
-- oxigen 2.5000
-- ozon 5.0000
-- carbondioxid 5.0000
----------------
 ------------OUTPUT1------------
 ozon 2.5000
 oxigen 2.5000
 ozon 5.0000
 carbondioxid 5.0000
 -------------------------------
-------ZIVATAR------
+---------------
+------ZIVATAR- ozon 2.5000
 -------------------
-------ZIVATAR------
+------ZIVATAR- oxigen 2.5000
 - 1.25 oxigen >> 1.25 ozon
 -------------------
-------ZIVATAR------
+------ZIVATAR- ozon 5.0000
 -------------------
-------ZIVATAR------
+------ZIVATAR- carbondioxid 5.0000
 -------------------
-- ozon 3.7500
-- oxigen 1.2500
-- ozon 5.0000
-- carbondioxid 5.0000
----------------
 ------------OUTPUT2------------
 ozon 3.7500
 oxigen 1.2500
 ozon 5.0000
 carbondioxid 5.0000
 -------------------------------
-------ZIVATAR------
+---------------
+------ZIVATAR- ozon 3.7500
 -------------------
-------ZIVATAR------
+------ZIVATAR- oxigen 1.2500
 - 0.625 oxigen >> 0.625 ozon
 -------------------
-------ZIVATAR------
+------ZIVATAR- ozon 5.0000
 -------------------
-------ZIVATAR------
+------ZIVATAR- carbondioxid 5.0000
 -------------------
-- ozon 4.3750
-- oxigen 0.6250
-- ozon 5.0000
-- carbondioxid 5.0000
----------------
 ------------OUTPUT3------------
 ozon 4.3750
 oxigen 0.6250
 ozon 5.0000
 carbondioxid 5.0000
 -------------------------------
-------ZIVATAR------
+---------------
+------ZIVATAR- ozon 4.3750
 -------------------
-------ZIVATAR------
+------ZIVATAR- oxigen 0.6250
 - 0.3125 oxigen >> 0.3125 ozon
 -------------------
-------ZIVATAR------
+------ZIVATAR- ozon 5.0000
 -------------------
-------ZIVATAR------
+------ZIVATAR- carbondioxid 5.0000
 -------------------
-- ozon 4.6875
-- oxigen 0.3125
-- ozon 5.0000
-- carbondioxid 5.0000
----------------
 ------------OUTPUT4------------
 ozon 4.6875
 ozon 5.0000
 carbondioxid 5.0000
 -------------------------------
+---------------
