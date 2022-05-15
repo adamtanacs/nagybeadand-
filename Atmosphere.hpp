@@ -37,7 +37,6 @@ public:
             layers.push_back(tmp);
         }
         f >> weather;
-        //weather = line;
     }
 
     bool createLayer(const Layer input, const unsigned int index); //

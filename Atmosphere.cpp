@@ -96,7 +96,6 @@ void Atmosphere::simulate()
 {
     unsigned int j = 0;
     unsigned int iteration = 1;
-    // for (unsigned int j = 0; j < weather.size(); j++)
     while (allElementsExits())
     {
         for (unsigned int i = 0; i < layers.size(); i++)
@@ -212,20 +211,11 @@ void Atmosphere::simulate()
         }
         clearThins();
         print(iteration);
-        // for(unsigned int i = 0; i < layers.size();i++)
-        // {
-        //     std::cout << "- " << layers[i].toString() << std::endl;
-        // }
         std::cout << "---------------" << std::endl;
         j++;iteration++;
         if(j >= weather.size())
             j = 0;
     }
-    // sleep(1);
-    // print(weather[i],iteration);
-    // i++;iteration++;
-    // if(i >= weather.size())
-    //     i = 0;
 }
 
 void Atmosphere::print(const unsigned int it)
